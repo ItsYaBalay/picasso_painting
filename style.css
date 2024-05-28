@@ -1,0 +1,52 @@
+.flex{
+    display:flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+}
+p{
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.452);
+}
+
+.background{
+    width:200vh;
+    z-index: -1;
+    position: absolute;
+}
+
+.form{
+    background-color: rgba(240, 248, 255, 0.555);
+    display: inline-block;
+    padding: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px){
+    .flex{
+        display:flex;
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 1050px){
+    .flex{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    img{
+        width: 500px;
+    }
+    p{
+        width: 500px;
+    }
+
+}
+
+
+
